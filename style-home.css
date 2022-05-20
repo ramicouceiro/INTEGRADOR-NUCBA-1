@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400&display=swap');
+* {
+    font-family: Montserrat;
+    background-color: #CBD6CC;
+}
+
+.nav__container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__logo img {
+    width: 150px;
+    mix-blend-mode: multiply;
+    /* padding: 30px; */
+    margin: 30px;
+}
+
+.nav__list {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 60px 20px 20px;
+}
+
+.nav__list li {
+    list-style: none;
+    padding: 15px;
+}
+
+.nav__list a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    border-radius: 20px;
+    transition: 0.25s;
+}
+
+.nav__list a:hover {
+    background-color: #d33e27;
+    color: white;
+}
+
+.nav__login {
+    margin-left: 60px;
+}
+
+.nav__login a {
+    background-color: black;
+    color: white;
+    padding: 15px 25px 15px 25px;
+    border-radius: 20px;
+}
+
+.hero__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 30px;
+}
+
+.hero__text h1 {
+    font-size: 60px;
+}
+
+.hero__text h3 {
+    font-weight: 300;
+}
+
+.hero__text__register {
+    display: flex;
+}
+
+.hero__text__register__icon i {
+    margin-top: 30px;
+    font-size: 70px;
+    color: #d33e27;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.hero__text__register__link {
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.hero__text__register__link a {
+    color: #d33e27;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.hero__img img {
+    width: 800px;
+}
