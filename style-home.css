@@ -8,6 +8,8 @@
 
 header {
     background-color: #CBD6CC;
+    position: fixed;
+    width: 100%;
 }
 
 .nav__container {
