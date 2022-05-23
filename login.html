@@ -9,6 +9,8 @@
 
     <link rel="stylesheet" href="normalize.css">
     <!-- Home Page -->
+    <link rel="stylesheet" href="style-home.css">
+    <!-- Login Page -->
     <link rel="stylesheet" href="style-login.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
@@ -20,13 +22,18 @@
             <div class="nav__logo">
                 <a href="index.html"><img src="./img/logo-principal.png" alt=""></a>
             </div>
+            <input type="checkbox" id="options-button" class="menu-toggle">
             <div class="nav__list">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="index.html">Nosotros</a></li>
                 <li><a href="#product">Producto</a></li>
                 <li><a href="#faq">Beneficios</a></li>
-                <li class="nav__login"><a href="">Iniciar Sesión</a></li>
+                <li class="nav__login"><a href="./login.html">Iniciar Sesión</a></li>
             </div>
+            <label for="options-button">
+                <div class="container__options__button">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
         </nav>
     </header>
     <main>

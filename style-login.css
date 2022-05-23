@@ -3,60 +3,9 @@
     font-family: Montserrat;
 }
 
-.nav__container {
-    display: flex;
-    justify-content: space-between;
-}
-
-.nav__logo img {
-    width: 150px;
-    mix-blend-mode: multiply;
-    /* padding: 30px; */
-    margin: 30px;
-}
-
-.nav__list {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 60px 20px 20px;
-}
-
-.nav__list li {
-    list-style: none;
-    padding: 15px;
-}
-
-.nav__list a {
-    text-decoration: none;
-    color: black;
-    padding: 15px;
-    border-radius: 20px;
-    transition: 0.25s;
-}
-
-.nav__list a:hover {
-    background-color: #d33e27;
-    color: white;
-}
-
-.nav__login {
-    margin-left: 60px;
-}
-
-.nav__login a {
-    background-color: black;
-    color: white;
-    padding: 15px 25px 15px 25px;
-    border-radius: 20px;
-}
-
-body {
-    background-color: #CBD6CC;
-}
-
+@import url(style-home.css);
 header {
-    background-color: #CBD6CC;
-    width: 100%;
+    top: 0;
 }
 
 
@@ -66,7 +15,7 @@ header {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-top: 100px;
+    margin-top: 200px;
     margin-bottom: 200px;
 }
 
@@ -114,44 +63,48 @@ header {
     background-color: #cf371f
 }
 
-
-/* FOOTER */
-
-.footer__container {
-    display: flex;
-    justify-content: space-around;
-    align-items: flex-end;
-    border-top: 1px solid black;
+.menu-toggle {
+    display: none;
 }
 
-.footer__container__logo {
-    padding: 40px;
-}
 
-.footer__container__logo img {
-    mix-blend-mode: multiply;
-}
+/* RESPONSIVE */
 
-.footer__container__socials {
-    padding: 40px;
-}
-
-.footer__container__socials i {
-    font-size: 40px;
-    padding: 20px;
-}
-
-.footer__container__socials i:hover {
-    cursor: pointer;
-}
-
-.footer__container__rights p {
-    display: flex;
-    height: 100%;
-    align-items: flex-end;
-    font-size: 10px;
-}
-
-.footer__container__rights p {
-    font-size: 10px;
+@media (max-width:576px) {
+    header {
+        position: static;
+    }
+    .nav__container {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+    .footer__container {
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer__container__rights {
+        display: none;
+    }
+    .nav__list,
+    .menu-toggle {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        display: none;
+    }
+    .menu-toggle:checked+.nav__list {
+        display: block;
+        position: absolute;
+        top: 120px;
+        max-width: 150px;
+        margin: 0 auto;
+    }
+    .menu-toggle :hover {
+        cursor: pointer;
+    }
+    .nav__login {
+        display: none;
+    }
 }
