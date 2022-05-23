@@ -63,12 +63,21 @@ header {
 /* HERO */
 
 .main {
+    background-color: #F1E9D8;
+}
+
+body {
+    background-color: #CBD6CC;
+}
+
+.hero {
     background-color: #CBD6CC;
 }
 
 .hero__container {
     display: flex;
     justify-content: space-around;
+    padding-bottom: 50px;
 }
 
 .hero__text {
@@ -122,6 +131,9 @@ header {
     width: 750px;
 }
 
+
+/* ABOUT */
+
 .about {
     background-color: #F1E9D8;
 }
@@ -131,6 +143,7 @@ header {
     align-items: center;
     justify-content: space-evenly;
     padding-top: 100px;
+    padding-bottom: 110px;
 }
 
 .about__text {
@@ -151,9 +164,117 @@ header {
     max-width: 500px;
 }
 
-.about__img {}
-
 .about__img img {
     width: 200px;
     padding: 40px;
+}
+
+
+/* PRODUCT */
+
+.product__container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 110px;
+}
+
+.product__container__title {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.product__container__title h2 {
+    font-size: 35px;
+}
+
+.product__container {
+    padding-top: 100px;
+    background-color: #F1E9D8;
+}
+
+.product__container__img img {
+    width: 400px;
+}
+
+.product__container__img {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+
+.product__container__img h3 {
+    padding-top: 40px;
+    width: 400px;
+}
+
+
+/* FAQ */
+
+.faq {
+    background-color: #F1E9D8;
+}
+
+.faq__container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: nowrap;
+    padding-bottom: 40px;
+}
+
+.faq__container__title h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.faq__container__img img {
+    width: 300px;
+}
+
+.faq__container__question1 {
+    text-align: justify;
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+/* FOOTER */
+
+.footer__container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer__container__logo {
+    padding: 40px;
+}
+
+.footer__container__logo img {
+    mix-blend-mode: multiply;
+}
+
+.footer__container__socials {
+    padding: 40px;
+}
+
+.footer__container__socials i {
+    font-size: 40px;
+    padding: 20px;
+}
+
+.footer__container__socials i:hover {
+    cursor: pointer;
+}
+
+.footer__container__rights p {
+    display: flex;
+    height: 100%;
+    align-items: flex-end;
+    font-size: 10px;
+}
+
+.footer__container__rights p {
+    font-size: 10px;
 }
