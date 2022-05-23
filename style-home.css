@@ -194,7 +194,7 @@ body {
 }
 
 .product__container__img img {
-    width: 400px;
+    width: 300px;
 }
 
 .product__container__img {
@@ -225,6 +225,7 @@ body {
 .faq__container__title h2 {
     text-align: center;
     font-size: 35px;
+    margin-bottom: 100px;
 }
 
 .faq__container__img img {
@@ -234,7 +235,7 @@ body {
 .faq__container__question1 {
     text-align: justify;
     padding: 5px;
-    border: 1px solid black;
+    border: 2px solid black;
     border-radius: 20px;
     margin: 5px;
 }
@@ -277,4 +278,22 @@ body {
 
 .footer__container__rights p {
     font-size: 10px;
+}
+
+
+/* WHATSAPP STICKY */
+
+.stickywpp__container {
+    position: relative;
+}
+
+.stickywpp__container img {
+    width: 50px;
+    position: fixed;
+    right: 10px;
+    top: 750px;
+}
+
+.stickywpp__container img:hover {
+    cursor: pointer;
 }
