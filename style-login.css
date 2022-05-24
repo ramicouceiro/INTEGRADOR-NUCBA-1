@@ -98,13 +98,12 @@ header {
         display: block;
         position: absolute;
         top: 120px;
-        max-width: 150px;
         margin: 0 auto;
     }
     .menu-toggle :hover {
         cursor: pointer;
     }
-    .nav__login {
-        display: none;
+    .login__container {
+        margin-top: 100px;
     }
 }
