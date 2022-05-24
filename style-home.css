@@ -54,10 +54,6 @@ header {
     color: white;
 }
 
-.nav__login {
-    /* margin-left: 60px; */
-}
-
 .nav__login a {
     background-color: black;
     color: white;
