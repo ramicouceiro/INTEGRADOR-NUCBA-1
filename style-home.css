@@ -331,7 +331,6 @@ body {
         flex-direction: column;
         justify-content: center;
         display: none;
-        /* border: 1px solid black; */
         border-radius: 20px;
     }
     .menu-toggle:checked+.nav__list {
@@ -340,7 +339,7 @@ body {
         top: 120px;
         margin: 0 auto;
         background-color: #F1E9D8;
-        z-index: 1;
+        z-index: 2;
     }
     .fa-solid:hover {
         cursor: pointer;
