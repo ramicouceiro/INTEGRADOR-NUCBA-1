@@ -331,7 +331,6 @@ body {
         flex-direction: column;
         justify-content: center;
         display: none;
-        /* border: 1px solid black; */
         border-radius: 20px;
     }
     .navlist_show {
@@ -339,8 +338,13 @@ body {
         position: absolute;
         top: 120px;
         margin: 0 auto;
+<<<<<<< HEAD
         background-color: #f1e9d8;
         z-index: 1;
+=======
+        background-color: #F1E9D8;
+        z-index: 2;
+>>>>>>> fa8d4014a2b236aa69573f417bb4fc0df098f74c
     }
     .fa-solid:hover {
         cursor: pointer;
