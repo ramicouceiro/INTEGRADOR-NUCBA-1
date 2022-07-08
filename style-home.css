@@ -419,7 +419,7 @@ body {
         justify-content: center;
         display: none;
     }
-    .menu-toggle:checked+.nav__list {
+    .navlist_show {
         display: block;
         position: absolute;
         top: 120px;
